@@ -4,11 +4,6 @@ import styled from "styled-components/macro";
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
-// import Works from "./components/works/Works";
-// import Testimonials from "./components/testimonials/Testimonials";
-import Contact from "./components/contact/Contact";
-// import { PageWrapper, Sections } from "./appStyling";
-
 
 const App = () => {
 
@@ -19,8 +14,7 @@ const App = () => {
           <PageWrapper>
             <Route component={Intro}  path="/" exact />
             <Route component={Portfolio} path="/portfolio" />
-            {/* <Route component={Contact} path="/contact" /> */}
-          </PageWrapper>
+           </PageWrapper>
         </Switch>
      
     </BrowserRouter>

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
-import {  ChevronLeft } from '@material-ui/icons';
 
 import "./portfolioStyling.jsx"
 import './paginationStyling.css'
@@ -30,7 +29,6 @@ const Portfolio = () => {
             <ProjectCard key={index} {...project} />
           ))}
      
-      {/* <PaginateContainer> */}
       <ReactPaginate
         previousLabel={<>&#x3c;</>}
         nextLabel={<>&#x3e;</>}
@@ -42,7 +40,6 @@ const Portfolio = () => {
         disabledClassName={"paginationDisabled"}
         activeClassName={"paginationActive"}
       />
-      {/* </PaginateContainer> */}
       </ProjectsWrapper>
     </>
   );
