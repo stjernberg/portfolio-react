@@ -9,8 +9,7 @@ import {
   Navbar,
   PageLink,
   IconContainer,
- 
-} from "./topbarStyling";
+} from "../styling/topbarStyling";
 
 const Topbar = () => {
   const [open, setOpen] = useState(false);
@@ -24,7 +23,7 @@ const Topbar = () => {
 
       <Menu open={open} onClick={() => setOpen(!open)}>
         <Navbar>
-          <PageLink to="/" exact >
+          <PageLink to="/" exact>
             <li>About me</li>
           </PageLink>
           <PageLink to="/portfolio">
@@ -33,16 +32,22 @@ const Topbar = () => {
         </Navbar>
 
         <IconContainer>
-          {/* <Icon> */}
-          <a href="https://github.com/stjernberg/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/stjernberg/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GitHub className="icon" />
           </a>
-          {/* </Icon> */}
-          <a href="https://github.com/stjernberg/" target="_blank" rel="noreferrer">
-          <LinkedIn className="icon" />
+          <a
+            href="https://www.linkedin.com/in/sara-stjernberg-12b929157/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedIn className="icon" />
           </a>
           <a href="mailto:sara_stjernberg@hotmail.com">
-          <MailOutline className="icon" />
+            <MailOutline className="icon" />
           </a>
         </IconContainer>
       </Menu>

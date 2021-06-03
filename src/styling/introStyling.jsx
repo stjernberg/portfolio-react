@@ -32,10 +32,16 @@ export const CheckIt = styled.div`
     font-size: 30px;
     margin-left: 10px; 
   }
+
+  @media (max-width: 637px){
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const AboutWrapper = styled.article`
   display: flex;
+  padding: 20px;
 
   @media (max-width: 637px){
     flex-direction: column;
@@ -46,20 +52,28 @@ export const AboutWrapper = styled.article`
 export const SkillsWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   margin-top: 120px;
   margin-left: 70px;
 
   p {
     font-weight: bold;
   }
+
+  @media (max-width: 637px){
+    margin-left: 0;
+  }
 `;
+
 export const Skills = styled.h2`
   margin-top: 30px;
 `;
+
 export const About = styled.div`
-  /* margin-right: 80px; */
   width: 60%;
+  padding: 15px;
 `;
+
 export const MeContainer = styled.section`
   display: flex;
   flex-direction: column;
@@ -95,10 +109,17 @@ export const Img = styled.img`
   top: -5%;
   right: 10%;
 
+  @media (max-width: 850px){
+    right: 15%;   
+  }
+
+  @media (max-width: 576px){
+    right: 25%;   
+  }
+
   @media (max-width: 637px){
     width: 180px;
-    height: 180px;
-    
+    height: 180px;   
   }
 `;
 
@@ -106,4 +127,5 @@ export const Heading = styled.h1`
   font-size: 30px;
   margin-top: 80px;
   width: 100%;
+  margin-bottom: 20px;
 `;

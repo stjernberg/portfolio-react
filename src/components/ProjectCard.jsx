@@ -1,4 +1,4 @@
-import {  Project,  ProjectLink,  Title,  Img,  Tags,  Tag,  Description,} from "./portfolioStyling";
+import {  Project,  ProjectLink,  Title,  Img,  Tags,  Tag,  Description,} from "../styling/portfolioStyling";
 
 const ProjectCard = (props) => {
 

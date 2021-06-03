@@ -5,15 +5,13 @@
   display: flex;
   justify-content: center;
   margin-top: 40px;  
-  /* padding: 0; */
- }
+}
 
 
 .paginationBttns a {
   padding: 5px 10px;
   margin: 8px;
-  /* height: 100%; */
-  border-radius: 10px;
+   border-radius: 10px;
   border: 1px solid  #6699cc;
   color: #6699cc;
   cursor: pointer; 
@@ -31,7 +29,3 @@
   background-color: #6699cc;
 }
 
-/* .paginationDisabled a {
-  color: grey;
-  background-color: grey;
-} */

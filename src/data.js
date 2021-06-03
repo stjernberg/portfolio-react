@@ -125,6 +125,51 @@ export const projects = [
     ],
   },
 
+  {
+    title: 'Music Releases',
+    img: "./images/project-music2.png",   
+    description:
+      "A webb application showing new albums and single releases from the Spotify API. You can click on links to get to an artist or an album to ",
+    repository: 'https://github.com/stjernberg/project-music-releases',
+    url: 'https://distracted-franklin-02832a.netlify.app/',
+    tags: [
+      'CSS',
+      'JavaScript',
+      'React',
+      'Spotify API'
+    ],
+  },
+
+  {
+    title: 'Create user',
+    img: "./images/project-aut.png",   
+    description:
+      "A fullstack project with signup and login. Authentication in both Backend and Frontend.",
+    repository: 'https://github.com/stjernberg/project-auth',
+    url: 'https://reveal-secrets.netlify.app/',
+    tags: [
+      'React',
+      'Redux',
+      'Styled Components',
+      'JavaScript',
+      'MongoDB',
+    ],
+  },
+
+  {
+    title: 'Clued Mystery Picker',
+    img: "./images/cluedo.png",   
+    description:
+      "Project inspired by the board game. A card randomizer built with pure JavaScript.",
+    repository: 'https://github.com/stjernberg/project-cluedo',
+    url: 'https:/cluedo-myster-picker.netlify.app/',
+    tags: [
+      'JavaScript',
+      'CSS',
+      'HTML'
+    ],
+  },
+
 
 ]
 

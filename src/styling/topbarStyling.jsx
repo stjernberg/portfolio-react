@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export const Header = styled.header`
   width: 100%;
-  height: 90px;
+  height: 110px;
   background: rgb(185, 217, 235);
   background: radial-gradient(
     circle,
@@ -11,10 +11,8 @@ export const Header = styled.header`
     rgba(102, 153, 204, 1) 55%,
     rgba(102, 187, 204, 1) 100%
   );
-  color: #fff;
-  /* position: fixed; */
-  /* padding: 30px; */
-  /* z-index: 3; */
+  color: #fff; 
+  z-index: 3; 
   padding: 15px 20px;
   display: flex;
   align-items: center;
@@ -57,8 +55,6 @@ export const Menu = styled.section`
     right: 0;
     height: 240px;
     width: 30%;
-    /* padding-top: 3rem;
-    padding-bottom: 1rem; */
     padding: 10px;
     transition: transform 0.3s ease-in-out;
     justify-content: space-around;
@@ -129,13 +125,6 @@ export const IconContainer = styled.div`
   }
 `;
 
-// export const Icon = styled.span`
-//   .icon {
-//     margin-right: 20px;
-//     font-size: 30px;
-//     color: #000;
-//   }
-//`
 
 export const Hamburger = styled.div`
   width: 3rem;

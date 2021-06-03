@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import styled from "styled-components/macro";
 
-import Topbar from "./components/topbar/Topbar";
-import Intro from "./components/intro/Intro";
-import Portfolio from "./components/portfolio/Portfolio";
+import Topbar from "./components/Topbar";
+import Intro from "./components/Intro";
+import Portfolio from "./components/Portfolio";
 
 const App = () => {
 
@@ -26,8 +26,7 @@ const PageWrapper = styled.div`
     width: 100%;
     background-color: #dce7f3;
     padding: 40px;
-    overflow-y: hidden;
-    
+    overflow-y: hidden;    
 `
 
 export default App;

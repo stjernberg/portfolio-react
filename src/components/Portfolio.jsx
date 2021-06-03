@@ -1,12 +1,11 @@
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
 
-import "./portfolioStyling.jsx"
-import './paginationStyling.css'
+import "../styling/paginationStyling.css"
+import { Heading, ProjectsWrapper } from "../styling/portfolioStyling";
 
 import ProjectCard from "./ProjectCard";
-import { projects } from "../../data";
-import { Heading, ProjectsWrapper } from "./portfolioStyling";
+import { projects } from "../data";
 
 const Portfolio = () => {
   const [pageNumber, setPageNumber] = useState(0);
