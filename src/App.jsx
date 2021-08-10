@@ -16,7 +16,6 @@ const App = () => {
             <Route component={Portfolio} path="/portfolio" />
            </PageWrapper>
         </Switch>
-     
     </BrowserRouter>
   );
 };
