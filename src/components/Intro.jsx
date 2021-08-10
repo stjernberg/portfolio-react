@@ -1,5 +1,15 @@
-import { IntroWrapper,  PageLink, CheckIt, Heading, SkillsWrapper, AboutWrapper,  Skills, 
-MeContainer, Img, About } from "../styling/introStyling";
+import {
+  IntroWrapper,
+  PageLink,
+  CheckIt,
+  Heading,
+  SkillsWrapper,
+  AboutWrapper,
+  Skills,
+  MeContainer,
+  Img,
+  About,
+} from "../styling/introStyling";
 import ProfileImg from "../assets/profilepic.jpg";
 
 const Intro = () => {
@@ -28,13 +38,13 @@ const Intro = () => {
               demos and retrospectives. Mob-programming and pair-programming was
               a significant part of the education.
             </p>
-            <br />
+            {/* <br /> */}
             {/* <p>
               I'm currently learning Wordpress and the headless CMS Sanity. This
               portfolio site is built with Sanity and React.
             </p> */}
             <CheckIt>
-            <h3>Check out my portfolio here </h3>
+              <h3>Check out my portfolio here </h3>
               <PageLink to="/portfolio">
                 <span role="img" aria-label="right pointer">
                   👉
@@ -62,6 +72,5 @@ const Intro = () => {
     </IntroWrapper>
   );
 };
-
 
 export default Intro;
