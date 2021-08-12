@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ReactPaginate from "react-paginate";
 
-import "../styling/paginationStyling.css"
+import "../styling/paginationStyling.css";
 import { Heading, ProjectsWrapper } from "../styling/portfolioStyling";
 
 import ProjectCard from "./ProjectCard";
@@ -27,18 +27,17 @@ const Portfolio = () => {
           .map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
-     
-      <ReactPaginate
-        previousLabel={<>&#x3c;</>}
-        nextLabel={<>&#x3e;</>}
-        pageCount={pageCount}
-        onPageChange={changePage}
-        containerClassName={"paginationBttns"}
-        previousLinkClassName={"previousBttn"}
-        nextLinkClassName={"nextBttn"}
-        disabledClassName={"paginationDisabled"}
-        activeClassName={"paginationActive"}
-      />
+        <ReactPaginate
+          previousLabel={<>&#x3c;</>}
+          nextLabel={<>&#x3e;</>}
+          pageCount={pageCount}
+          onPageChange={changePage}
+          containerClassName={"paginationBttns"}
+          previousLinkClassName={"previousBttn"}
+          nextLinkClassName={"nextBttn"}
+          disabledClassName={"paginationDisabled"}
+          activeClassName={"paginationActive"}
+        />
       </ProjectsWrapper>
     </>
   );

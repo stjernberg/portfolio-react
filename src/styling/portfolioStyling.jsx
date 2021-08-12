@@ -4,7 +4,8 @@ export const ProjectsWrapper = styled.section`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  overflow: hidden;
+
+  /* overflow: hidden; */
 `;
 
 export const Project = styled.article`
@@ -55,10 +56,12 @@ export const Tags = styled.div`
   margin-top: 15px;
   justify-content: center;
 `;
+
 export const ProjectLink = styled.a`
   text-decoration: none;
   color: #000;
 `;
+
 export const Title = styled.h2`
   position: absolute;
   color: grey;
