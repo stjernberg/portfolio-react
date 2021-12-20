@@ -18,7 +18,7 @@ const Topbar = () => {
     <Header>
       <Left>
         <h1>Sara Stjernberg</h1>
-        <h2>Frontend developer</h2>
+        <h2>Web developer</h2>
       </Left>
 
       <Menu open={open} onClick={() => setOpen(!open)}>
