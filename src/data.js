@@ -18,6 +18,15 @@ export const projects = [
     tags: ["React", "Redux", "Styled Components", "JavaScript", "MongoDB"],
   },
   {
+    title: "Movies & Shows Search",
+    img: "./images/movies-shows.png",
+    description:
+      "A project built in React and Redux in which the user can search for movies or shows from the Omdb-API.",
+    repository: "https://github.com/stjernberg/react-redux-movies",
+    url: "https://movies-shows-search.netlify.app/",
+    tags: ["React", "Redux", "SASS", "JavaScript"],
+  },
+  {
     title: "Labyrinth",
     img: "./images/labyrinth.jpg",
     description:

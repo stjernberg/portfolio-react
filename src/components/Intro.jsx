@@ -16,7 +16,6 @@ const Intro = () => {
   return (
     <IntroWrapper>
       <MeContainer>
-        <Heading>Hello, I'm Sara.</Heading>
         <Img src={ProfileImg} />
         <AboutWrapper>
           <About>
@@ -29,21 +28,19 @@ const Intro = () => {
             </p>
             <br />
             <p>
-              Currently I'm a student at Lexicon, with focus on building
-              applications in Asp.net with c# Entity Framework and Razer View
-              and React for the frontend. I've also attended Technigo Bootcamp -
-              a 24-week fast-paced remote bootcamp focused on JavaScript (ES6),
-              React, HTML5, CSS and server-side programming with Node.js. With
-              weekly projects covering everything from the basics of programming
-              to structuring web projects in the latest technologies. We worked
-              with Agile methodology. Mob-programming and pair-programming was a
-              significant part of the education.
+              Currently I'm doing internship with focus on frontend and Angular,
+              but also a bit of .Net. I'm a former student at Lexicon, an
+              education wwhere I learned to build applications in Asp.net with
+              C# Entity Framework and Identity. I also deepended my knowledge of
+              React and Redux. I've also attended Technigo Bootcamp - a 24-week
+              fast-paced remote bootcamp focused on JavaScript, React, Redux
+              HTML5, CSS and server-side programming with Node.js. With weekly
+              projects covering everything from the basics of programming to
+              structuring web projects in the latest technologies. We worked
+              with Agile methodology and mob-programming and pair-programming
+              was a significant part of the education.
             </p>
-            {/* <br /> */}
-            {/* <p>
-              I'm currently learning Wordpress and the headless CMS Sanity. This
-              portfolio site is built with Sanity and React.
-            </p> */}
+
             <CheckIt>
               <h3>Check out my portfolio here </h3>
               <PageLink to="/portfolio">
@@ -55,22 +52,23 @@ const Intro = () => {
           </About>
 
           <SkillsWrapper>
-            <Skills>Skills</Skills>
+            <Skills>Skills:</Skills>
             <p>HTML</p>
             <p>CSS</p>
+            <p>SASS</p>
             <p>Styled Components</p>
             <p>Bootstrap</p>
+            <p>PrimeFaces</p>
+            <p>PrimeNG</p>
             <p>JavaScript</p>
+            <p>TypeScript</p>
             <p>React</p>
             <p>Redux</p>
+            <p>Angular</p>
             <p>Node.js</p>
             <p>C#</p>
-            <p>Asp.Net</p>
+            <p>.Net</p>
             <p>Entity Framework</p>
-
-            {/* <Skills>Learning</Skills>
-            <p>Sanity</p>
-            <p>Wordpress</p> */}
           </SkillsWrapper>
         </AboutWrapper>
       </MeContainer>

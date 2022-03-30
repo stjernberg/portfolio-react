@@ -52,7 +52,7 @@ export const SkillsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 120px;
+  margin-top: 110px;
   margin-left: 70px;
 
   p {
