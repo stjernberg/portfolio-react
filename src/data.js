@@ -6,7 +6,7 @@ export const projects = [
       "The official web site for We Exist. We Exist helps companies to attract, recruit and retain female employees in Tech and IT.",
     repository: "https://github.com/emma-tech/we-exist",
     url: "https://weexist-development-site.netlify.app/",
-    tags: ["React", "JavaScript", "Styled Components", "Typeform"],
+    tags: ["React", "Redux", "JavaScript", "Styled Components", "Typeform"],
   },
   {
     title: "We Exist Demo ",
