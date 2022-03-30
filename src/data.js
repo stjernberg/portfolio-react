@@ -35,15 +35,16 @@ export const projects = [
     url: "https://the-maze-game.netlify.app/",
     tags: ["React", "Redux", "Styled Components", "JavaScript"],
   },
-  {
-    title: "Recipe-site",
-    img: "./images/recipes.png",
-    description:
-      "On this site the user can search for recepis by keywords. The recipes are fetched from Edabit's Recipe Search API, using axios. The recipes are displated on different page wirt pagination.",
-    repository: "https://github.com/stjernberg/recipe-app",
-    url: "https://saras-recipes.netlify.app/",
-    tags: ["React", "Styled Components", "JavaScript"],
-  },
+  //Currently doesn't work
+  // {
+  //   title: "Recipe-site",
+  //   img: "./images/recipes.png",
+  //   description:
+  //     "On this site the user can search for recepis by keywords. The recipes are fetched from Edabit's Recipe Search API, using axios. The recipes are displated on different page wirt pagination.",
+  //   repository: "https://github.com/stjernberg/recipe-app",
+  //   url: "https://saras-recipes.netlify.app/",
+  //   tags: ["React", "Styled Components", "JavaScript"],
+  // },
   {
     title: "Harry Potter-quiz",
     img: "./images/quiz-app.png",
