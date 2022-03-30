@@ -2,7 +2,6 @@ import {
   IntroWrapper,
   PageLink,
   CheckIt,
-  Heading,
   SkillsWrapper,
   AboutWrapper,
   Skills,
